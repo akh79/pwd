@@ -7,15 +7,15 @@ Passwords are a real headache in the modern world. This project is a study of po
 ## Approach
 
 The password generator creates passwords that can be pronounced and not just sequences of various symbols. Another benefit is that you save keystrokes when typing the password. The idea of this approach is borrowed from this website [Passwort Generator](https://passwort-generator.org). The Python implementation is mine. Typical generated passwords look like this:
-	- dejoropocyfy
-	- koqesigerupapoli
+- dejoropocyfy
+- koqesigerupapoli
 
 ## Algorithm
 
 The initial algorithm is quite simple:
-	- generate a random sequence of consonants,
-	- generate a random sequence of vowels,
-	- merge two sequences, so that consonants and vowels alternate.
+- generate a random sequence of consonants,
+- generate a random sequence of vowels,
+- merge two sequences, so that consonants and vowels alternate.
 
 ## Implementation
 
